@@ -1,0 +1,109 @@
+.sol__navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sol__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.sol__navbar-links_logo {
+    cursor: pointer;
+}
+.sol__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+.sol__navbar-links_container a {
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A4A5A7;  
+    padding-right: 6px;     
+}
+.sol__navbar-links_container p {
+    margin-right: 5rem;
+    cursor: pointer;
+}
+.sol__navbar-links_container p:hover svg path {
+    fill: #fff;
+    transition: 0.3s;
+} 
+.sol__navbar-links_container p:hover a{
+    color: #fff;
+    transition: 0.3s;
+}
+.sol__navbar-menu {
+    display: none;
+    position: relative;
+}
+.sol__navbar-menu svg {
+    cursor: pointer;
+} 
+.sol__navbar-menu_container {
+    position: absolute;
+    background: #000000;
+    width: 100%;
+}
+.sol__navbar-menu_container-links p {
+    margin: 2rem 0;
+    cursor: pointer;
+}
+.sol__navbar-menu_container-links a {
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A4A5A7;
+    padding: 0 0.75rem;
+}
+/* Large Desktop View */
+@media screen and (min-width: 1441px) {
+    .main-padding {
+        padding: 2rem 16.25rem;
+    }
+}
+/* Desktop View */
+@media screen and (max-width: 1441px) {
+    .main-padding {
+        padding: 2rem 9.75rem;
+    }
+}
+/* Tablet View */
+@media screen and (max-width: 1200px) {
+    .main-padding {
+        padding: 2rem 8rem;
+    }
+}
+/* Tablet View */
+@media screen and (max-width: 1050px) {
+    .main-padding {
+        padding: 2rem 6.25rem;
+    }
+    .sol__navbar-links_container {
+        display: none;
+    }
+    .sol__navbar-menu {
+        display: block;
+    }  
+}
+/* Mobile View */
+@media screen and (max-width: 768px) {
+    .main-padding {
+        padding: 2rem;
+    }
+}
+/* Small Mobile View */
+@media screen and (max-width: 425px) {
+    .main-padding {
+        padding: 2rem 1rem;
+    }
+        .sol__navbar-menu_container {
+            margin-top: 1.5rem;
+        }
+}
