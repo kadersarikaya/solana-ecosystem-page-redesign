@@ -10,26 +10,23 @@
 a {
   text-decoration: none;
 }
+.d-flex {
+  display: flex;
+}
 /* Large Desktop View */
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1600px) {
   .main-padding {
-    padding: 2rem 16.25rem;
+    padding: 2rem 16.75rem;
   }
 }
 /* Desktop View */
-@media screen and (max-width: 1441px) {
+@media screen and (max-width: 1600px) {
   .main-padding {
-    padding: 2rem 9.75rem;
+    padding: 2rem 10rem;
   }
 }
 /* Tablet View */
-@media screen and (max-width: 1200px) {
-  .main-padding {
-    padding: 2rem 8rem;
-  }
-}
-/* Tablet View */
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1250px) {
   .main-padding {
     padding: 2rem 6.25rem;
   }
