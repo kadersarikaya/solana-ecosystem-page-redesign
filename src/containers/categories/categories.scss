@@ -1,0 +1,15 @@
+.sol__categories-header ul {
+    justify-content: space-between;
+}
+
+.sol__categories-header ul li a {
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8e8d91;
+    &:hover {
+        color: rgba(214, 214, 214, 1)
+    }
+}

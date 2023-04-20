@@ -1,8 +1,14 @@
 import React from 'react'
-
-const Category = () => {
+import './category.scss';
+const Category = ({img, title, num}) => {
   return (
-    <div>Category</div>
+    <div className='sol__category__component'>
+      <div className="sol__category__component-content">
+        <img src={img} alt="" />
+        <h1>{title}</h1>
+        <p>{num}</p>
+      </div>
+    </div>
   )
 }
 

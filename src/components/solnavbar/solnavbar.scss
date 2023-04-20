@@ -8,36 +8,37 @@
 }
 .sol__navbar-links_container {
     display: flex; 
-}
-.sol__navbar-links_container a {
-    font-family: var(--font-inter);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #A4A5A7; 
-    padding-right: 6px;
-} 
-.sol__navbar-links_container p {
-    cursor: pointer;
-}
-.sol__navbar-links_container p:not(:last-child) {
-    margin-right: 5rem;
-}
-.sol__navbar-links_container p:hover svg path {
-    fill: #fff;
-    transition: 0.3s;
-} 
-.sol__navbar-links_container p:hover a{
-    color: #fff;
-    transition: 0.3s;
+    a {
+        font-family: var(--font-inter);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #A4A5A7;
+        padding-right: 6px;
+    }
+    p {
+        cursor: pointer;
+        &:not(:last-child) {
+            margin-right: 5rem;
+        }
+        &:hover svg path {
+            fill: #fff;
+            transition: 0.3s;
+        }
+
+        &:hover a {
+            color: #fff;
+            transition: 0.3s;
+        }
+    }
 }
 .sol__navbar-menu {
     display: none;
     position: relative;
-}
-.sol__navbar-menu svg {
-    cursor: pointer;
+    svg {
+        cursor: pointer;
+    }
 } 
 .sol__navbar-menu_container {
     position: absolute;
@@ -45,43 +46,45 @@
     width: 100%;
     z-index: 100;
 }
-.sol__navbar-menu_container-links p {
-    margin: 2rem 0;
-    cursor: pointer;
-}
-.sol__navbar-menu_container-links a {
-    font-family: var(--font-inter);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #A4A5A7;
-    padding: 0 0.75rem;
+.sol__navbar-menu_container-links  {
+    p {
+        margin: 2rem 0;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    a {
+        font-family: var(--font-inter);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #A4A5A7;
+        padding: 0 0.75rem;
+    }
 }
 .sol__user-container {
     display: flex;
     justify-content: space-between;
     margin-top: 2.5rem;
-    flex-wrap: wrap;
-    margin-top: 44px;
-}
-.sol__user-container input {
-    background: #1F1F1F;
-    border: none; 
-    padding: 1rem 3rem;
-    font-family: var(--font-inter);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    width: 727px;
-    border-radius:60px; 
-    caret-color: #A4A5A7;
-    color: #A4A5A7;
-}
-.sol__user-container input:focus {
-    outline-color:#1820ff;
-    transition: 0.3s;
+    flex-wrap: wrap; 
+    input {
+        background: #1F1F1F;
+        border: none;
+        padding: 1rem 3rem;
+        font-family: var(--font-inter);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        width: 727px;
+        border-radius: 60px;
+        caret-color: #A4A5A7;
+        color: #A4A5A7;
+        &:focus {
+            outline-color: #1820ff;
+            transition: 0.3s;
+        }
+    }
 }
 .sol__search_input-group svg {
     position: absolute;
@@ -89,28 +92,28 @@
     margin-left: 20px;
     margin-right: 16px;
 }
-.sol__cta-container button{
-    background:#000;
-    color: #fff;
-    padding: 1rem 2rem;
-    align-items: center; 
-    border-radius: 40px;
-    cursor: pointer;
-    font-family: var(--font-inter);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    text-transform: uppercase; 
-    border: 1px solid #D6D6D6;
+.sol__cta-container {
+    position: relative;
 }
+
 .sol__cta-div {
     width: 44px;
     height: 3px;
     transform: rotate(90deg);
     background: #3D3D3D;
     margin-top: 24px;
+}
+.sol__cta-container {
+    button {
+        background: #000;
+        padding: 1rem 2rem;
+        font-size: 14px;
+        line-height: 18px;
+        border: 1px solid #D6D6D6;
+        &:hover {
+            background: white;
+        }
+    }
 }
 
 /************ RESPONSIVE *************/

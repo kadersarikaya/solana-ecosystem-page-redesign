@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import logo from '../../assets/logo/solanaLogo.svg';
-import './solnavbar.css';
+import './solnavbar.scss';
 import {GiHamburgerMenu} from 'react-icons/gi';
 import {VscChromeClose} from 'react-icons/vsc';
 import profilePic from '../../assets/images/Profile-picture.svg'

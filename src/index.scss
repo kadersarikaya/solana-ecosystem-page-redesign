@@ -6,12 +6,42 @@
   --color-bg: linear-gradient(0deg, rgba(153, 69, 255, 0.02), rgba(153, 69, 255, 0.02)), #000000;
   --font-inter: 'Inter', sans-serif;
   --font-manrope: 'Manrope', sans-serif;
+  --gradient-btn: linear-gradient(270deg, #22093F 0%, #611CB8 33.85%, #A94EE4 77.08%, #DE78F8 100%);
 }
 a {
   text-decoration: none;
 }
+
+button {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 40px;
+  color: #fff;
+  align-items: center;
+  transition: transform 0.25s ease-in-out;
+  outline: none;
+  border: none;
+  &:hover {
+      cursor: pointer;
+      transform: translateY(-5px);
+        
+        color: black;
+    }
+}
 .d-flex {
   display: flex;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
 }
 /* Large Desktop View */
 @media screen and (min-width: 1600px) {
