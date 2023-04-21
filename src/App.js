@@ -1,13 +1,14 @@
 import './App.scss';
-import {Solnavbar} from './components';
+import {Slider, Solnavbar} from './components';
 import {Categories, Header} from './containers';
 
 function App() {
   return (
     <div className="App">
-      <Solnavbar/>
-      <Header/>
-      <Categories/>
+      <Solnavbar />
+      <Header />
+      <Categories />
+      <Slider/>
     </div>
   );
 }

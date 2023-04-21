@@ -1,0 +1,73 @@
+ 
+@mixin white-gradient {
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+$animationSpeed: 30s;
+
+// Animation
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7))
+    }
+}
+
+
+// Styling
+.sol__slider {
+    background: #000;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 1200px; 
+    margin-top: 217px;
+    h1 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height, or 125% */
+    
+        text-align: center;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: rgba(214, 214, 214, 1);
+    }
+    &::before,
+    &::after {
+        @include white-gradient;
+        content: "";
+        height: 400px;
+        position: absolute;
+        width: 200px;
+        z-index: 2;
+    }
+
+    &::after {
+        right: 0;
+        top: 0;
+        transform: rotateZ(180deg);
+    }
+
+    &::before {
+        left: 0;
+        top: 0;
+    }
+
+    .sol__slide-track {
+        animation: scroll $animationSpeed linear infinite;
+        display: flex;
+        width: calc(250px * 14);
+        margin-top: 48px;
+    }
+
+    .sol__slide {
+        height: 100px;
+        width: 250px;
+    }
+}

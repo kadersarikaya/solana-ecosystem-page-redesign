@@ -20,7 +20,7 @@ const Categories = () => {
         </ul>
       </div>
       <div className="sol__categories-content">
-        <div className="sol__categories-header">
+        <div className="sol__categories__header">
           <div className="sol__categories-title">
             <h1>Browse by category</h1>
           </div>
@@ -29,11 +29,36 @@ const Categories = () => {
           </div>
         </div>
         <div className="sol__categories-body">
-          <Category title={"DeFi"} num={103} img={DeFi}/>
-          <Category title={"NFT"} num={408} img={Nft}/>
-          <Category title={"Gaming"} num={60} img={Gaming}/>
-          <Category title={"Node Operator"} num={24} img={Infra}/>
-          <Category title={"Infrastructure"} num={37} img={Node}/>
+          <div className="sol__category-single">
+            <Category title={"DeFi"} num={103} img={DeFi}/>
+          </div>
+          <div className="sol__category-single">
+            <Category title={"NFT"} num={408} img={Nft}/>
+          </div>
+          <div className="sol__category-single">
+            <Category title={"Gaming"} num={60} img={Gaming}/>
+          </div>
+          <div className="sol__category-single">
+            <Category title={"Node Operator"} num={24} img={Infra}/>
+          </div>
+          <div className="sol__category-single">
+            <Category title={"Infrastructure"} num={37} img={Node}/>
+          </div>
+          <div className="sol__category-single">
+            <Category title={"DeFi"} num={103} img={DeFi}/>
+          </div>
+          <div className="sol__category-single">
+            <Category title={"NFT"} num={408} img={Nft}/>
+          </div>
+          <div className="sol__category-single">
+            <Category title={"Gaming"} num={60} img={Gaming}/>
+          </div>
+          <div className="sol__category-single">
+            <Category title={"Node Operator"} num={24} img={Infra}/>
+          </div>
+          <div className="sol__category-single">
+            <Category title={"Infrastructure"} num={37} img={Node}/>
+          </div>
         </div>
       </div>
     </div>
