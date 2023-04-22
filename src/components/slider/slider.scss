@@ -21,7 +21,7 @@ $animationSpeed: 30s;
 .sol__slider {
     background: #000;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-    height: 400px;
+    height: 380px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -42,7 +42,7 @@ $animationSpeed: 30s;
     &::after {
         @include white-gradient;
         content: "";
-        height: 400px;
+        height: 380px;
         position: absolute;
         width: 200px;
         z-index: 2;

@@ -1,0 +1,57 @@
+ .sol__lending {
+    width: 360px;
+    height: 310px;
+    padding: 24px; 
+    background: linear-gradient(0deg, rgba(153, 69, 255, 0.01), rgba(153, 69, 255, 0.01)), #0A0A0A;
+        box-shadow: 0px 2px 60px rgba(0, 0, 0, 0.08);
+        border-radius: 24px;
+        .sol__lending-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2 {
+                padding-top: 16px;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+            }
+            ul {
+                padding-top: 43px;
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                li {
+                    
+                    &:not(:last-child) {
+                        padding-right: 33px;
+                    }
+                    a {
+                        transition: all 0.3s ease-in-out;
+                        &:hover svg {
+                            path {
+                                fill: var(--color-white);
+                            }
+                        }
+                    }
+                }
+
+            }
+            button {
+                margin-top: 26px;
+                justify-content: center;
+                    align-items: center;
+                    padding: 14px 28px;
+                    width: 312px;
+                        height: 46px;
+                        background: var(--gradient-btn);
+                        font-weight: 600;
+                            font-size: 14px;
+                            line-height: 18px;
+                            &:hover {
+                                background: var(--color-white);
+                                color: black;   
+                            }
+            }
+        }
+ }

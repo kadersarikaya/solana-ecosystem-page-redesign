@@ -1,6 +1,6 @@
 import './App.scss';
 import {Slider, Solnavbar} from './components';
-import {Categories, Header} from './containers';
+import {Categories, Defiprojects, Header, Marketplaces, Protocols} from './containers';
 
 function App() {
   return (
@@ -9,6 +9,9 @@ function App() {
       <Header />
       <Categories />
       <Slider/>
+      <Defiprojects/>
+      <Marketplaces/>
+      <Protocols />
     </div>
   );
 }

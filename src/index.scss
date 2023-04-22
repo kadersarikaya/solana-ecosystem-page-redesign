@@ -6,6 +6,7 @@
   --font-inter: 'Inter', sans-serif;
   --font-manrope: 'Manrope', sans-serif;
   --gradient-btn: linear-gradient(270deg, #22093F 0%, #611CB8 33.85%, #A94EE4 77.08%, #DE78F8 100%);
+  --color-white: rgba(255, 255, 255, 1)
 }
 a {
   text-decoration: none;
@@ -18,7 +19,7 @@ button {
   font-style: normal;
   font-weight: 600;
   border-radius: 40px;
-  color: #fff;
+  color: var(--color-white);
   align-items: center;
   transition: transform 0.25s ease-in-out;
   outline: none;
