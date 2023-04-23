@@ -1,0 +1,47 @@
+.sol__social {
+    display: flex;
+    margin-top: 108px;
+    justify-content: space-between;
+    color: var(--color-white);
+    .sol__social-community {
+        width: 502px;
+        height: 176px;
+        align-items: flex-start;
+        padding: 0px 96px 0px 0px;
+        h1 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 45px;
+            letter-spacing: -0.02em;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+        }
+        p {
+            color: rgba(214, 214, 214, 1);
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+            margin-top: 20px;
+        }
+    } 
+        
+ 
+}
+.sol__social-media--item {
+    display: flex;
+    &:not(:last-child) {
+        margin-bottom: 44px;
+    }
+    svg {
+        path {
+            fill: var(--color-white);
+        }
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 12px;
+    }
+}

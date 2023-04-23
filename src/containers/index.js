@@ -5,6 +5,7 @@ export {default as Dexprojects} from './dexprojects/Dexprojects';
 export {default as Events} from './events/Events';
 export {default as Marketplaces} from './marketplaces/Marketplaces';
 export {default as Protocols} from './protocols/Protocols';
-export {default as Trends} from './trends/Trends';
+export {default as Social} from './social/Social';
 export {default as Header} from './header/Header';
 export {default as Footer} from './footer/Footer';
+export {default as Newsletter} from './newsletter/Newsletter';

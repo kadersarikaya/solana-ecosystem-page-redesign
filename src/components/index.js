@@ -7,4 +7,3 @@ export { default as Event } from "./event/Event";
 export { default as Slider } from "./slider/Slider";
 export { default as Marketplace } from "./marketplace/Marketplace";
 export { default as Protocol } from "./protocol/Protocol";
-export { default as Trend } from "./trend/Trend";
