@@ -1,8 +1,12 @@
 import React from 'react'
-
-const Dex = () => {
+import './dex.scss'
+const Dex = ({logo, title, desc}) => {
   return (
-    <div>Dex</div>
+    <div className='sol__dex'>
+      <img src={logo} alt="" />
+      <h2>{title}</h2>
+      <p>{desc}</p>
+    </div>
   )
 }
 
