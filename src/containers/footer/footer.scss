@@ -1,0 +1,111 @@
+.sol__footer {
+    color: rgba(214, 214, 214, 1);
+    margin-top: 144px;  
+    height: 418px;
+    background: linear-gradient(0deg, rgba(153, 69, 255, 0.02), rgba(153, 69, 255, 0.02)), #000000;
+    .sol__footer-container {
+        display: flex;
+        justify-content: space-between;
+        .sol__footer-social {
+            p {
+                margin-top: 24px;
+                color:rgba(153, 153, 153, 1);
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+            }
+            ul {
+                display: flex;
+                margin-top: 35px;
+                li {
+                    margin-right: 29px;
+                    a {
+                        svg {
+                            path {
+                                 fill: rgba(153, 153, 153, 1);
+                            }
+
+                        }
+                        &:hover {
+                            svg {
+                                path {
+                                    fill: var(--color-white);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+        .sol__footer-links-first {
+            ul li {
+                display: block;
+                margin-top: 20px;
+                span {
+                    color: rgba(122, 122, 122, 1);
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 16px; 
+                    letter-spacing: 0.08em;
+                    text-transform: uppercase;
+                }
+                a {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: rgba(214, 214, 214, 1);
+                    &:hover {
+                        color: var(--color-white);
+                    }
+                }
+            }
+        }
+        .sol__footer-links-last {
+            ul li {
+                display: block;
+                margin-top: 20px;
+                 span {
+                    color: rgba(122, 122, 122, 1);
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 16px; 
+                    letter-spacing: 0.08em;
+                    text-transform: uppercase;
+                }
+                a {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: rgba(214, 214, 214, 1);
+                    &:hover {
+                        color: var(--color-white);
+                    }
+                }
+            }
+        }
+        .sol__footer-localize {
+            form {
+                display: flex;
+                label {
+                    margin-right: 14px;
+                }
+                select {
+                    background: transparent;
+                    color: var(--color-white);
+                    border: none;
+                    option {
+                        color: #000;
+                    }
+                }
+            }
+        }
+        .sol__footer-btm {
+            margin-top: 72px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: #929799;
+        }
+}

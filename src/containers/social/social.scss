@@ -28,20 +28,25 @@
  
 }
 .sol__social-media--item {
-    display: flex;
     &:not(:last-child) {
-        margin-bottom: 44px;
-    }
-    svg {
-        path {
-            fill: var(--color-white);
+            margin-bottom: 44px;
         }
+    a {
+        display: flex;
+            
+        
+            svg {
+                path {
+                    fill: var(--color-white);
+                }
+            }
+        
+            p {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                margin-left: 12px;
+            }
     }
-
-    p {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 22px;
-        margin-left: 12px;
-    }
+    
 }
