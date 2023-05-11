@@ -51,14 +51,44 @@
 /* Tablet View */
 @media screen and (max-width: 1250px) {
     .sol__header {
-            background-image: url(../../assets/images/tablet-world.svg);
+        background-image: url(../../assets/images/tablet-world.svg);
+        background-size:  100% 100%;
+        background-position: center; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 64px;
+}
+    .sol__header-content {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
+    .sol__header-content-cta {
+        margin-top: 0;  
+        padding: 0;
+        text-align: center;
+        h1 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+        button {
+            padding: 16px 36px; 
+        }
+    }
+
 }
 
 /* Mobile View */
 @media screen and (max-width: 768px) {
     .sol__header {
             background-image: url(../../assets/images/mobile-world.svg);
+    }
+    .sol__header-content-cta { 
+        padding-bottom: 550px;
     }
 }
 

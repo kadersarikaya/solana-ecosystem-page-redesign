@@ -16,3 +16,24 @@
     color: var(--color-white);
     margin-top: 40px;
 }
+
+@media screen and (max-width: 1250px) {
+.sol__protocols {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .sol__top-protocols {
+            h1 {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 30px;
+                /* identical to box height, or 125% */
+    
+                text-align: center;
+            }
+        }
+}

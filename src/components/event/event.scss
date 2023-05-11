@@ -37,8 +37,7 @@
                 margin-right: 33px;
             }
         }
-        .sol__event-btns {
-            margin-top: 44px;
+        .sol__event-btns { 
             button {
                 font-family: var(--font-manrope);
                 font-style: normal;
@@ -69,4 +68,31 @@
             }
         }
     }
+} 
+
+@media screen and (max-width: 1250px) { 
+    .sol__event { 
+        flex-direction: column;
+        padding: 16px;
+        width: 100%;
+        height: 100%; 
+        margin-bottom: 24px;
+            .sol__event-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        .sol__event-info {
+            margin: 16px 0;
+            h1 {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 30px;
+            }
+        }
+        .sol__event-btns {
+            margin-top: 0;   
+        }
+    } 
+
 }

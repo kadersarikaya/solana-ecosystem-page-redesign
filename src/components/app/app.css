@@ -1,0 +1,59 @@
+.sol__web3-app {
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 40px;
+  width: 552px;
+  height: 214px;
+  color: var(--color-white);
+  background: linear-gradient(0deg, rgba(153, 69, 255, 0.01), rgba(153, 69, 255, 0.01)), #0A0A0A;
+  box-shadow: 0px 2px 60px rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+}
+.sol__web3-app .sol__app-content {
+  display: flex;
+}
+.sol__web3-app .sol__app-content .sol__app-info {
+  margin-left: 20px;
+}
+.sol__web3-app .sol__app-content .sol__app-info h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+.sol__web3-app .sol__app-content .sol__app-info p {
+  padding-top: 8px;
+  color: rgb(153, 153, 153);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.sol__web3-app .sol__app-btns {
+  display: flex;
+}
+.sol__web3-app .sol__app-btns button {
+  width: 246px;
+  height: 46px;
+  font-weight: 600;
+  font-family: var(--font-Inter);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+.sol__web3-app .sol__app-btns button:last-child {
+  background: linear-gradient(270deg, #22093F 0%, #611CB8 33.85%, #A94EE4 77.08%, #DE78F8 100%);
+}
+.sol__web3-app .sol__app-btns button:last-child:hover {
+  background: var(--color-white);
+}
+.sol__web3-app .sol__app-btns button:first-child {
+  margin-right: 20px;
+  border: 1px solid rgb(214, 214, 214);
+  background: rgba(0, 0, 0, 0.01);
+}
+.sol__web3-app .sol__app-btns button:first-child:hover {
+  background: var(--color-white);
+}/*# sourceMappingURL=app.css.map */

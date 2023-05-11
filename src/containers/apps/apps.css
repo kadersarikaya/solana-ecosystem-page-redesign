@@ -1,0 +1,10 @@
+.sol__web3-apps {
+  margin-top: 108px;
+  margin-bottom: 108px;
+  color: var(--color-white);
+}
+.sol__web3-apps .sol__top-apps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}/*# sourceMappingURL=apps.css.map */

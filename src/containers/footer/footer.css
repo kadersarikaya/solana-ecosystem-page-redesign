@@ -1,0 +1,93 @@
+.sol__footer {
+  color: rgb(214, 214, 214);
+  margin-top: 144px;
+  height: 418px;
+  background: linear-gradient(0deg, rgba(153, 69, 255, 0.02), rgba(153, 69, 255, 0.02)), #000000;
+}
+.sol__footer .sol__footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.sol__footer .sol__footer-container .sol__footer-social p {
+  margin-top: 24px;
+  color: rgb(153, 153, 153);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.sol__footer .sol__footer-container .sol__footer-social ul {
+  display: flex;
+  margin-top: 35px;
+}
+.sol__footer .sol__footer-container .sol__footer-social ul li {
+  margin-right: 29px;
+}
+.sol__footer .sol__footer-container .sol__footer-social ul li a svg path {
+  fill: rgb(153, 153, 153);
+}
+.sol__footer .sol__footer-container .sol__footer-social ul li a:hover svg path {
+  fill: var(--color-white);
+}
+.sol__footer .sol__footer-links-first ul li {
+  display: block;
+  margin-top: 20px;
+}
+.sol__footer .sol__footer-links-first ul li span {
+  color: rgb(122, 122, 122);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.sol__footer .sol__footer-links-first ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(214, 214, 214);
+}
+.sol__footer .sol__footer-links-first ul li a:hover {
+  color: var(--color-white);
+}
+.sol__footer .sol__footer-links-last ul li {
+  display: block;
+  margin-top: 20px;
+}
+.sol__footer .sol__footer-links-last ul li span {
+  color: rgb(122, 122, 122);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.sol__footer .sol__footer-links-last ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(214, 214, 214);
+}
+.sol__footer .sol__footer-links-last ul li a:hover {
+  color: var(--color-white);
+}
+.sol__footer .sol__footer-localize form {
+  display: flex;
+}
+.sol__footer .sol__footer-localize form label {
+  margin-right: 14px;
+}
+.sol__footer .sol__footer-localize form select {
+  background: transparent;
+  color: var(--color-white);
+  border: none;
+}
+.sol__footer .sol__footer-localize form select option {
+  color: #000;
+}
+.sol__footer .sol__footer-btm {
+  margin-top: 72px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #929799;
+}/*# sourceMappingURL=footer.css.map */

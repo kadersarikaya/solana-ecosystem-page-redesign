@@ -1,0 +1,36 @@
+.sol__nft-mp {
+  width: 350px;
+  height: 372px;
+  background: linear-gradient(0deg, rgba(153, 69, 255, 0.01), rgba(153, 69, 255, 0.01)), #0A0A0A;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.sol__nft-mp .sol__nft-content-up img {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px 24px 0px 0px;
+}
+.sol__nft-mp .sol__nft-content-down {
+  padding: 24px;
+}
+.sol__nft-mp .sol__nft-content-down img {
+  padding-bottom: 16px;
+}
+.sol__nft-mp .sol__nft-content-down h2 {
+  font-family: var(--font-manrope);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 8px;
+}
+.sol__nft-mp .sol__nft-content-down p {
+  font-family: var(--font-manrope);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 24px;
+  color: rgb(184, 184, 184);
+}/*# sourceMappingURL=marketplace.css.map */

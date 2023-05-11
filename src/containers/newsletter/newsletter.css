@@ -1,0 +1,69 @@
+.sol__newsletter {
+  margin-top: 108px;
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sol__newsletter .sol__newsletter-header span {
+  color: rgb(122, 122, 122);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sol__newsletter .sol__newsletter-header h1 {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.02em;
+}
+.sol__newsletter .sol__newsletter-header p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 12px;
+}
+.sol__newsletter .sol__newsletter-form {
+  margin-top: 36px;
+}
+.sol__newsletter .sol__newsletter-form form {
+  display: flex;
+}
+.sol__newsletter .sol__newsletter-form form input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px 10px 40px;
+  width: 800px;
+  height: 68px;
+  background: linear-gradient(0deg, rgba(153, 69, 255, 0.02), rgba(153, 69, 255, 0.02)), #0F0F0F;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.16);
+  border-radius: 60px;
+  outline: none;
+  border: none;
+}
+.sol__newsletter .sol__newsletter-form form button {
+  align-items: center;
+  padding: 14px 88px 14px 100px;
+  gap: 4px;
+  width: 251px;
+  height: 48px;
+  background: var(--gradient-btn);
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: -260px;
+  margin-top: 10px;
+  justify-content: center;
+}
+.sol__newsletter .sol__newsletter-form form button:hover {
+  background: white;
+  color: #000;
+}/*# sourceMappingURL=newsletter.css.map */

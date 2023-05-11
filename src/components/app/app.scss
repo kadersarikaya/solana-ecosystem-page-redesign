@@ -58,3 +58,24 @@
         }
     }
 }
+
+@media screen and (max-width: 1250px) {
+    .sol__web3-app {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .sol__app-btns {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; 
+        button {
+            margin-bottom: 16px;
+            width: 350px;
+            height: 100%;
+        }
+    }
+}

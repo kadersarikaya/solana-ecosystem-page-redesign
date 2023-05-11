@@ -1,6 +1,6 @@
 .sol__social {
     display: flex;
-    margin-top: 108px;
+    margin-top: 108px; 
     justify-content: space-between;
     color: var(--color-white);
     .sol__social-community {
@@ -24,17 +24,20 @@
             margin-top: 20px;
         }
     } 
-        
  
 }
-.sol__social-media--item {
+.sol__social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.sol__social-media--item { 
+
     &:not(:last-child) {
             margin-bottom: 44px;
         }
     a {
         display: flex;
-            
-        
             svg {
                 path {
                     fill: var(--color-white);
@@ -49,4 +52,30 @@
             }
     }
     
+}
+
+@media screen and (max-width: 1250px)
+{
+    .sol__social {
+        flex-wrap: wrap;
+        .sol__social-media {
+        width: 80%;
+        }
+        .sol__social-community {
+            width: 100%;
+            h1 {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 30px;
+                /* identical to box height, or 125% */
+            
+                letter-spacing: -0.02em;
+            }
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+    }
 }

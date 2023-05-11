@@ -1,0 +1,16 @@
+.sol__top-protocols {
+  margin-top: 120px;
+}
+.sol__top-protocols .sol__protocols-header h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: var(--color-white);
+}
+
+.sol__protocols {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-white);
+  margin-top: 40px;
+}/*# sourceMappingURL=protocols.css.map */

@@ -1,0 +1,25 @@
+.sol__defi-projects {
+  margin-top: 10px;
+  margin-bottom: 108px;
+}
+.sol__defi-projects h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.02em;
+  color: rgb(255, 255, 255);
+}
+
+.sol__defi-carousel {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1250px) {
+  .sol__defi-projects h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}/*# sourceMappingURL=defiprojects.css.map */

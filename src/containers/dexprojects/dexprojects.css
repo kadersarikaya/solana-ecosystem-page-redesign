@@ -1,0 +1,32 @@
+.sol__dex-projects {
+  color: var(---color-white);
+  margin-top: 116px;
+}
+.sol__dex-projects .sol__dex-header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.sol__dex-projects .sol__dex-header h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+.sol__dex-projects .sol__dex-header button {
+  width: 125px;
+  height: 44px;
+  font-family: var(--font-manrope);
+  padding: 12px 32px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+}
+.sol__dex-projects .sol__dex-header button:hover {
+  background-color: white;
+  color: black;
+}
+
+.sol__dex-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}/*# sourceMappingURL=dexprojects.css.map */

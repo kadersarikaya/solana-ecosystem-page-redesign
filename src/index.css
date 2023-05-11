@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+:root {
+  font-family: "Inter", sans-serif;
+  --color-bg: linear-gradient(0deg, rgba(153, 69, 255, 0.02), rgba(153, 69, 255, 0.02)), #000000;
+  --font-inter: "Inter", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+  --gradient-btn: linear-gradient(270deg, #22093F 0%, #611CB8 33.85%, #A94EE4 77.08%, #DE78F8 100%);
+  --color-white: rgba(255, 255, 255, 1) ;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 40px;
+  color: var(--color-white);
+  align-items: center;
+  transition: transform 0.25s ease-in-out;
+  outline: none;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  color: black;
+  background-color: #fff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+/* Large Desktop View */
+@media screen and (min-width: 1600px) {
+  .main-padding {
+    padding: 2rem 16.75rem;
+  }
+}
+/* Desktop View */
+@media screen and (max-width: 1600px) {
+  .main-padding {
+    padding: 2rem 10rem;
+  }
+}
+/* Tablet View */
+@media screen and (max-width: 1250px) {
+  .main-padding {
+    padding: 2rem 6.25rem;
+  }
+}
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  .main-padding {
+    padding: 2rem;
+  }
+}
+/* Small Mobile View */
+@media screen and (max-width: 425px) {
+  .main-padding {
+    padding: 2rem 1rem;
+  }
+}/*# sourceMappingURL=index.css.map */

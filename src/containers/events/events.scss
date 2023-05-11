@@ -37,3 +37,27 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .sol__events {
+        h1 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .sol__events { 
+        h1 {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 36px;
+            letter-spacing: -0.02em;
+            
+        }
+                .sol__event-details-btn {
+                    display: none;
+                }
+    }
+}

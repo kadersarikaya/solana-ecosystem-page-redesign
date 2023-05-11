@@ -6,6 +6,7 @@
     .sol__footer-container {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         .sol__footer-social {
             p {
                 margin-top: 24px;
@@ -107,5 +108,19 @@
             font-size: 14px;
             line-height: 18px;
             color: #929799;
+        } 
+}
+
+@media screen and (max-width: 768px) {
+    .sol__footer-social {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+         .sol__footer-social {
+             p { 
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+             }
         }
 }

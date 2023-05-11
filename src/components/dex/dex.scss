@@ -20,3 +20,10 @@
         line-height: 20px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .sol__dex {
+        padding: 20px;
+        width: 100%;
+    }
+}

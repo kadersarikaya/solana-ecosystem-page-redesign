@@ -8,7 +8,7 @@ import swim from "../../assets/images/swim.svg";
 
 const Slider = () => { 
    return (
-    <div class="sol__slider">
+    <div class="sol__slider main-padding">
       <h1>TRENDING PROJECTS THIS MONTH</h1>
       <div class="sol__slide-track">
         <div class="sol__slide">

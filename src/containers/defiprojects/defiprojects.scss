@@ -13,4 +13,17 @@
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 1250px) {
+    .sol__defi-projects {
+        h1 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+        
 }

@@ -1,0 +1,36 @@
+.sol__nft {
+  margin-top: 108px;
+  color: var(--color-white);
+}
+.sol__nft h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.sol__nfts-mp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sol__nft-expand {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sol__nft-expand p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.sol__nft-expand img {
+  margin-top: 19px;
+}/*# sourceMappingURL=marketplaces.css.map */

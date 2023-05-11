@@ -41,7 +41,7 @@
             flex-direction: row;
             align-items: center;
             padding: 10px 10px 10px 40px;
-            width: 800px;
+            width:400px;
             height: 68px;
             background: linear-gradient(0deg, rgba(153, 69, 255, 0.02), rgba(153, 69, 255, 0.02)), #0F0F0F;
             box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.16);
@@ -49,16 +49,16 @@
             outline: none;
             border: none;
         }
-        button {
-            align-items: center;
-            padding: 14px 88px 14px 100px;
+        button {  
+            text-align: center;
+            padding: 14px;
             gap: 4px;
-            width: 251px;
+            width: 100px;
             height: 48px;
+            margin-left: -100px;
             background: var(--gradient-btn);
             font-weight: 600;
-            font-size: 16px;
-            margin-left: -260px;
+            font-size: 16px; 
             margin-top: 10px;
             justify-content: center;
             &:hover {
@@ -69,3 +69,54 @@
     }
     }
 }
+@media screen and (max-width: 768px) {
+    .sol__newsletter {
+        form {
+            input {
+                width: 320px;
+            }
+            button {
+                margin-left: 0;
+                padding: 14px 0;
+                width: 200px;
+            }
+        }
+         .sol__newsletter-header { 
+             h1 {
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+             }
+             p {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+             }
+         }
+    }
+ 
+}
+
+@media screen and (max-width: 1250px) {
+    .sol__newsletter {    
+        .sol__newsletter-header {
+            span {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 16px;
+            }
+            h1 {
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 36px;
+                letter-spacing: -0.02em;
+            }
+            p {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+    } 
+}
+ 
